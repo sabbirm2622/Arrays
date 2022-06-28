@@ -20,6 +20,11 @@ print("Appending values")
 new_2dArray = np.append(twoDArray, [[51, 52, 53, 54], [61, 62, 63, 64]], axis=0)
 print(new_2dArray)
 
+# Delete row/column from 2D array
+print("Deleting.....")
+delArray = np.delete(twoDArray, 0, axis=1)
+print(delArray)
+
 
 # Accessing in the array
 print("Accessing element in the array")
